@@ -1,6 +1,6 @@
 // https://www.typescriptlang.org/docs/handbook/2/objects.html#the-readonlyarray-type
 
-type MyReadonlyArray<T> = readonly T[]
+export type MyReadonlyArray<T> = readonly T[]
 
 const values: MyReadonlyArray<string> = ['a', 'b', 'c']
 
