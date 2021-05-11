@@ -3,7 +3,7 @@ import { MyExtract } from './Extract'
 /**
  * 实现方式之一
  */
-type First<T> = T[MyExtract<keyof T, '0'>]
+export type First<T> = T[MyExtract<keyof T, '0'>]
 
 /**
  * 另一种实现方式, 借助 infer
