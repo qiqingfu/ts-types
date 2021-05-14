@@ -1,6 +1,6 @@
 // https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeystype
 
-type MyRecord<T extends string | number | symbol, U> = {
+export type MyRecord<T extends string | number | symbol, U> = {
   [P in T]: U
 }
 

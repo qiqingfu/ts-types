@@ -33,7 +33,7 @@ function getOrigin(value: XOR<Person, Pet>) {
   /* ... */
 }
 
-getOrigin({}) // Error
-getOrigin({ name: 'Jack', age: 24 }) // OK
-getOrigin({ job: 'WEB', age: 24 }) // OK
-getOrigin({ name: 'NICKEN', age: 24, job: 'WEB' }) // Error
+// getOrigin({})  Error
+// getOrigin({ name: 'Jack', age: 24 })  OK
+// getOrigin({ job: 'WEB', age: 24 })  OK
+// getOrigin({ name: 'NICKEN', age: 24, job: 'WEB' })  Error
