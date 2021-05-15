@@ -21,6 +21,8 @@ A collection of TypeScript utility type implementations
 - Omit
 - Record
 - DeepReadonly
+- Last
+- Chainable
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
