@@ -2,7 +2,7 @@
 // reference
 
 /**
- * 一开始的实现想法是怎么能得到 元组的长度 - 1 的值
+ * 开始的实现想法是怎么可以得到元组长度-1的的下标, 通过下标键入元组的最后一个元素类型
  */
 export type Last<T extends any[]> = T extends [any, ...(infer L)] ? T[L['length']] : never
 
