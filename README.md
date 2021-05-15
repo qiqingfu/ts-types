@@ -23,6 +23,10 @@ A collection of TypeScript utility type implementations
 - DeepReadonly
 - Last
 - Chainable
+- Pop
+- Push
+- Shift
+- UnShift
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
