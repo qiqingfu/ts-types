@@ -27,6 +27,8 @@ A collection of TypeScript utility type implementations
 - Push
 - Shift
 - UnShift
+- LookUp
+- TrimLeft
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
