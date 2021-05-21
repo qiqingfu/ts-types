@@ -28,7 +28,10 @@
 - Shift
 - UnShift
 - LookUp
-- TrimLeft
+- Trim
+  - TrimLeft
+  - TrimRight
+- Capitalize
 
 ## 参考资料
 - [type-challenges](https://github.com/type-challenges/type-challenges)

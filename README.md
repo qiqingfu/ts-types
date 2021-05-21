@@ -28,7 +28,10 @@ A collection of TypeScript utility type implementations
 - Shift
 - UnShift
 - LookUp
-- TrimLeft
+- Trim
+  - TrimLeft
+  - TrimRight
+- Capitalize
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
