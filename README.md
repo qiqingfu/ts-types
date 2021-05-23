@@ -32,6 +32,7 @@ A collection of TypeScript utility type implementations
   - TrimLeft
   - TrimRight
 - Capitalize
+- Replace
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
