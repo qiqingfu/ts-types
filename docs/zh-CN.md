@@ -34,6 +34,7 @@
 - Capitalize
 - Replace
 - ReplaceAll
+- AppendArgument
 
 ## 参考资料
 - [type-challenges](https://github.com/type-challenges/type-challenges)

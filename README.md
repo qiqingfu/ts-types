@@ -34,6 +34,7 @@ A collection of TypeScript utility type implementations
 - Capitalize
 - Replace
 - ReplaceAll
+- AppendArgument
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
