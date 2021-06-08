@@ -35,6 +35,8 @@ A collection of TypeScript utility type implementations
 - Replace
 - ReplaceAll
 - AppendArgument
+- Permutation
+- StringLength
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
