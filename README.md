@@ -37,6 +37,7 @@ A collection of TypeScript utility type implementations
 - AppendArgument
 - Permutation
 - StringLength
+- Flatten
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
