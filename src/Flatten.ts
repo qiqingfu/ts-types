@@ -13,16 +13,11 @@
  *     ↓
  *   分别处理第一个参数和其他剩余参数
  */
-export type Flatten<T> = T extends any[]
-  ? T extends []
-    ? []
-    : T extends [infer F]
-    ? [...Flatten<F>]
-    : T extends [infer F, ...(infer U)]
-    ? [...Flatten<F>, ...Flatten<U>]
-    : never
-  : [T]
+export type Flatten<T extends unknown[]> = T extends [infer A, ...(infer B)]
+  ? A extends unknown[]
+    ? [...Flatten<A>, ...Flatten<B>]
+    : [A, ...Flatten<B>]
+  : []
 
 type flatten = Flatten<[1, 2, [3, 4], [[5]]]> // [1, 2, 3, 4, 5]
 type flatten1 = Flatten<[1, 2]> // [1, 2]
-type flatten2 = Flatten<1> // [1]
