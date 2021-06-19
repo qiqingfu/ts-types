@@ -38,6 +38,7 @@ A collection of TypeScript utility type implementations
 - Permutation
 - StringLength
 - Flatten
+- AppendToObject
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
