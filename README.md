@@ -41,7 +41,8 @@ A collection of TypeScript utility type implementations
 - AppendToObject
 - Absolute 
 - StringToUnion
-- Merge 
+- Merge
+- CamelCase 
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
