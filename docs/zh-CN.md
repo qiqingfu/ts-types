@@ -39,6 +39,9 @@
 - StringLength
 - Flatten
 - AppendToObject
+- Absolute
+- StringToUnion
+- Merge 
 
 ## 参考资料
 - [type-challenges](https://github.com/type-challenges/type-challenges)

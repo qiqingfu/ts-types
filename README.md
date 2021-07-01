@@ -39,6 +39,9 @@ A collection of TypeScript utility type implementations
 - StringLength
 - Flatten
 - AppendToObject
+- Absolute 
+- StringToUnion
+- Merge 
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
