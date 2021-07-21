@@ -43,6 +43,8 @@ A collection of TypeScript utility type implementations
 - StringToUnion
 - Merge
 - CamelCase 
+- KebabCase
+- SetOptional
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
