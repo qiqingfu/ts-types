@@ -45,6 +45,7 @@ A collection of TypeScript utility type implementations
 - CamelCase 
 - KebabCase
 - SetOptional
+- ParamType
 
 ## Reference
 - [type-challenges](https://github.com/type-challenges/type-challenges)
